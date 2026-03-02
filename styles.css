@@ -66,14 +66,17 @@ button {
     color: white;
     font-weight: bold;
     font-size: 18px;
+    border-color: #1F2937;
+    border-style: solid;
 }
 
 .content {
-    padding: 36px 36px 90px 36px;
+    padding: 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 36px;
+    margin-bottom: 72px;
 }
 
 .c-header {
@@ -117,4 +120,38 @@ button {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 36px;
+    margin: 100px 200px;
+    gap: 128px;
+    align-items: center;
+}
+
+.s-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 36px;
+}
+
+.s-content-text { 
+    color: white;
+}
+
+.s-content-text-header {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.s-content-text-subtext {
+    font-weight: 300;
+}
+
+.s-content-button button {
+    border-color: white;
 }
