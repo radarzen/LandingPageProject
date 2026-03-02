@@ -67,3 +67,54 @@ button {
     font-weight: bold;
     font-size: 18px;
 }
+
+.content {
+    padding: 36px 36px 90px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.c-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.c-pics {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.picbox {
+    flex-basis: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 36px;
+}
+
+.quote-block {
+    flex-basis: 775px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
