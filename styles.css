@@ -128,7 +128,7 @@ button {
     background-color: #3882F6;
     padding: 36px;
     margin: 100px 200px;
-    gap: 128px;
+    /* gap: 128px; */
     align-items: center;
 }
 
@@ -146,10 +146,16 @@ button {
 .s-content-text-header {
     font-size: 24px;
     font-weight: 600;
+    min-width: 0px;
 }
 
 .s-content-text-subtext {
     font-weight: 300;
+    min-width: 0px;
+}
+
+.space {
+    flex: 0 1 128px;
 }
 
 .s-content-button button {
